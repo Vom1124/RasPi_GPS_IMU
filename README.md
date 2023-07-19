@@ -39,7 +39,7 @@ Prerequisites:
 
      Similar to GPS_RTK2, this uses serial communication as well. Depending on the device type, the system will configure and recognize differently. For this device, the Linux recognized as "/dev/ttyACM*". Check the number once again if it's 0,1,2, ... by displaying all the devices under tty using "ls /dev/tty*" command.
 
-Once all the necessary packages are installed and verified, simply start the ros2 nodes as
+Once all the necessary packages are installed and verified, simply start the ros2 nodes as*
 
             ros2 run gps_rtk2 gps_read
 
@@ -48,3 +48,9 @@ Once all the necessary packages are installed and verified, simply start the ros
             ros2 run imu imu_read
   
   for publishing imu data.
+
+*NOTE: Don't forget to build using     
+
+            colcon build --symlink-install
+
+and sourcing the terminal before running the nodes. 
