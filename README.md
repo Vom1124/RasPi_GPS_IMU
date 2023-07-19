@@ -1,5 +1,6 @@
 # RasPi_GPS_IMU
-This is an example to publish GPS and IMU data using gps_rtk2 and any VECTORNAV devices, respectively.
+This is an example to publish GPS and IMU data using gps_rtk2 and any VECTORNAV device, respectively. 
+The project was created in ROS2 Foxy running Ubuntu 20.04 in Raspberry Pi 4.  
 The ROS2 workspace is written in Foxy version but should be compatible with Humble and other future ROS2 versions.
 This workspace contains two packages; namely, gps_rtk2 and imu. The ros2 nodes are individually created for publishing the gps data and the imu data.
 
