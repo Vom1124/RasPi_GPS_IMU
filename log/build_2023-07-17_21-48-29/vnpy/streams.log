@@ -1,0 +1,21 @@
+[4.267s] Invoking command in '/home/ubuntu/RasPi_GPS_IMU/src/vectornav_python library': PYTHONPATH=/home/ubuntu/RasPi_GPS_IMU/build/vnpy/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/vnpy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py build --build-base /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build install --record /home/ubuntu/RasPi_GPS_IMU/build/vnpy/install.log
+[4.490s] running build
+[4.490s] running build_py
+[4.495s] running build_ext
+[4.506s] building 'vnpy._libvncxx' extension
+[4.510s] aarch64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Ilibvncxx/include -Ilibvncxx/libvnc/include -I/home/ubuntu/RasPi_GPS_IMU/install/vnpy/include -I/usr/include/python3.8 -c vnpy/libvncxx_wrap.cpp -o /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/vnpy/libvncxx_wrap.o
+[10.271s] [01m[Kvnpy/libvncxx_wrap.cpp:[m[K In function ‘[01m[KPyObject* _wrap_delete_VnSensor(PyObject*, PyObject*)[m[K’:
+[10.271s] [01m[Kvnpy/libvncxx_wrap.cpp:52903:10:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[Kvn::sensors::VnSensor[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+[10.272s] 52903 |   delete [01;35m[Karg1[m[K;
+[10.272s]       |          [01;35m[K^~~~[m[K
+[89.506s] In file included from [01m[K/usr/include/string.h:495[m[K,
+[89.506s]                  from [01m[K/usr/include/python3.8/Python.h:30[m[K,
+[89.506s]                  from [01m[Kvnpy/libvncxx_wrap.cpp:173[m[K:
+[89.507s] In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+[89.507s]     inlined from ‘[01m[Kvoid SWIG_Python_FixMethods(PyMethodDef*, swig_const_info*, swig_type_info**, swig_type_info**)[m[K’ at [01m[Kvnpy/libvncxx_wrap.cpp:76543:22[m[K,
+[89.508s]     inlined from ‘[01m[KPyObject* PyInit__libvncxx()[m[K’ at [01m[Kvnpy/libvncxx_wrap.cpp:76643:25[m[K:
+[89.508s] [01m[K/usr/include/aarch64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ output truncated before terminating nul copying 10 bytes from a string of the same length [[01;35m[K-Wstringop-truncation[m[K]
+[89.508s]   106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+[89.509s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[89.913s] interrupted
+[90.346s] Invoked command in '/home/ubuntu/RasPi_GPS_IMU/src/vectornav_python library' returned '1': PYTHONPATH=/home/ubuntu/RasPi_GPS_IMU/build/vnpy/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/vnpy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py build --build-base /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build install --record /home/ubuntu/RasPi_GPS_IMU/build/vnpy/install.log

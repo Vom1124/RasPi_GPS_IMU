@@ -1,0 +1,478 @@
+[0.000000] (-) TimerEvent: {}
+[0.001050] (gps_rtk2) JobQueued: {'identifier': 'gps_rtk2', 'dependencies': OrderedDict()}
+[0.001509] (imu) JobQueued: {'identifier': 'imu', 'dependencies': OrderedDict()}
+[0.003057] (vnpy) JobQueued: {'identifier': 'vnpy', 'dependencies': OrderedDict()}
+[0.003625] (gps_rtk2) JobStarted: {'identifier': 'gps_rtk2'}
+[0.099024] (-) TimerEvent: {}
+[0.108963] (imu) JobStarted: {'identifier': 'imu'}
+[0.157702] (vnpy) JobStarted: {'identifier': 'vnpy'}
+[0.199506] (-) TimerEvent: {}
+[0.300806] (-) TimerEvent: {}
+[0.401638] (-) TimerEvent: {}
+[0.502301] (-) TimerEvent: {}
+[0.603005] (-) TimerEvent: {}
+[0.703643] (-) TimerEvent: {}
+[0.804350] (-) TimerEvent: {}
+[0.904979] (-) TimerEvent: {}
+[1.005644] (-) TimerEvent: {}
+[1.106484] (-) TimerEvent: {}
+[2.014132] (-) TimerEvent: {}
+[2.115348] (-) TimerEvent: {}
+[2.217272] (-) TimerEvent: {}
+[2.318077] (-) TimerEvent: {}
+[2.418954] (-) TimerEvent: {}
+[2.519615] (-) TimerEvent: {}
+[2.620270] (-) TimerEvent: {}
+[2.720920] (-) TimerEvent: {}
+[2.821598] (-) TimerEvent: {}
+[2.922382] (-) TimerEvent: {}
+[3.023167] (-) TimerEvent: {}
+[3.125005] (-) TimerEvent: {}
+[3.230912] (-) TimerEvent: {}
+[3.331866] (-) TimerEvent: {}
+[3.432667] (-) TimerEvent: {}
+[3.533354] (-) TimerEvent: {}
+[3.633985] (-) TimerEvent: {}
+[3.734701] (-) TimerEvent: {}
+[3.835369] (-) TimerEvent: {}
+[3.936133] (-) TimerEvent: {}
+[4.036966] (-) TimerEvent: {}
+[4.137658] (-) TimerEvent: {}
+[4.238401] (-) TimerEvent: {}
+[4.339305] (-) TimerEvent: {}
+[4.441069] (-) TimerEvent: {}
+[4.542060] (-) TimerEvent: {}
+[4.643395] (-) TimerEvent: {}
+[4.744530] (-) TimerEvent: {}
+[4.845836] (-) TimerEvent: {}
+[4.946684] (-) TimerEvent: {}
+[5.048010] (-) TimerEvent: {}
+[5.149266] (-) TimerEvent: {}
+[5.250469] (-) TimerEvent: {}
+[5.351889] (-) TimerEvent: {}
+[5.453188] (-) TimerEvent: {}
+[5.554616] (-) TimerEvent: {}
+[5.655492] (-) TimerEvent: {}
+[5.756353] (-) TimerEvent: {}
+[5.783450] (vnpy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'build', '--build-base', '/home/ubuntu/RasPi_GPS_IMU/build/vnpy/build', 'install', '--record', '/home/ubuntu/RasPi_GPS_IMU/build/vnpy/install.log'], 'cwd': '/home/ubuntu/RasPi_GPS_IMU/src/python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '2247', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2004', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:45380', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2356,unix/ubuntu:/tmp/.ICE-unix/2356', 'INVOCATION_ID': '9132de938b1e452995258aa39c25ba9a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58575bd6_d29b_4ed9_9a3c_14a48c618757', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install/imu:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/RasPi_GPS_IMU/build/vnpy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/RasPi_GPS_IMU/build/vnpy/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/vnpy/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/imu:/home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[5.856616] (-) TimerEvent: {}
+[5.958218] (-) TimerEvent: {}
+[6.024569] (vnpy) StdoutLine: {'line': b'running build\n'}
+[6.028311] (vnpy) StdoutLine: {'line': b'running build_py\n'}
+[6.029237] (vnpy) StdoutLine: {'line': b'creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build\n'}
+[6.029988] (vnpy) StdoutLine: {'line': b'creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/lib.linux-aarch64-3.8\n'}
+[6.030734] (vnpy) StdoutLine: {'line': b'creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/lib.linux-aarch64-3.8/vnpy\n'}
+[6.031245] (vnpy) StdoutLine: {'line': b'copying vnpy/libvncxx.py -> /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/lib.linux-aarch64-3.8/vnpy\n'}
+[6.033554] (vnpy) StdoutLine: {'line': b'copying vnpy/conv.py -> /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/lib.linux-aarch64-3.8/vnpy\n'}
+[6.035585] (vnpy) StdoutLine: {'line': b'copying vnpy/__init__.py -> /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/lib.linux-aarch64-3.8/vnpy\n'}
+[6.036164] (vnpy) StdoutLine: {'line': b'running build_ext\n'}
+[6.049712] (vnpy) StdoutLine: {'line': b"building 'vnpy._libvncxx' extension\n"}
+[6.050867] (vnpy) StdoutLine: {'line': b'creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8\n'}
+[6.051537] (vnpy) StdoutLine: {'line': b'creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/vnpy\n'}
+[6.052063] (vnpy) StdoutLine: {'line': b'creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/libvncxx\n'}
+[6.052389] (vnpy) StdoutLine: {'line': b'creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/libvncxx/src\n'}
+[6.053170] (vnpy) StdoutLine: {'line': b'creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/libvncxx/src/devices\n'}
+[6.055216] (vnpy) StdoutLine: {'line': b'creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/libvncxx/libvnc\n'}
+[6.057552] (vnpy) StdoutLine: {'line': b'creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/libvncxx/libvnc/src\n'}
+[6.058390] (-) TimerEvent: {}
+[6.060975] (vnpy) StdoutLine: {'line': b'aarch64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Ilibvncxx/include -Ilibvncxx/libvnc/include -I/home/ubuntu/RasPi_GPS_IMU/install/vnpy/include -I/usr/include/python3.8 -c vnpy/libvncxx_wrap.cpp -o /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/vnpy/libvncxx_wrap.o\n'}
+[6.158586] (-) TimerEvent: {}
+[6.259718] (-) TimerEvent: {}
+[6.360657] (-) TimerEvent: {}
+[6.461555] (-) TimerEvent: {}
+[6.562691] (-) TimerEvent: {}
+[6.664290] (-) TimerEvent: {}
+[6.766834] (-) TimerEvent: {}
+[6.846369] (imu) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/RasPi_GPS_IMU/build/imu/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/RasPi_GPS_IMU/build/imu', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '2247', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2004', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:45380', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2356,unix/ubuntu:/tmp/.ICE-unix/2356', 'INVOCATION_ID': '9132de938b1e452995258aa39c25ba9a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58575bd6_d29b_4ed9_9a3c_14a48c618757', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install/imu:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/RasPi_GPS_IMU/build/imu', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/RasPi_GPS_IMU/build/imu/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/imu:/home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[6.866409] (gps_rtk2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '2247', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2004', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:45380', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2356,unix/ubuntu:/tmp/.ICE-unix/2356', 'INVOCATION_ID': '9132de938b1e452995258aa39c25ba9a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58575bd6_d29b_4ed9_9a3c_14a48c618757', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install/imu:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/imu:/home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[6.884524] (-) TimerEvent: {}
+[6.990263] (-) TimerEvent: {}
+[7.091592] (-) TimerEvent: {}
+[7.193021] (-) TimerEvent: {}
+[7.294054] (-) TimerEvent: {}
+[7.394841] (-) TimerEvent: {}
+[7.495615] (-) TimerEvent: {}
+[7.596916] (-) TimerEvent: {}
+[7.698155] (-) TimerEvent: {}
+[7.799476] (-) TimerEvent: {}
+[7.901210] (-) TimerEvent: {}
+[8.017081] (-) TimerEvent: {}
+[8.118228] (-) TimerEvent: {}
+[8.219015] (-) TimerEvent: {}
+[8.253146] (gps_rtk2) StdoutLine: {'line': b'running develop\n'}
+[8.254494] (imu) StdoutLine: {'line': b'running develop\n'}
+[8.319234] (-) TimerEvent: {}
+[8.420899] (-) TimerEvent: {}
+[8.522093] (-) TimerEvent: {}
+[8.622987] (-) TimerEvent: {}
+[8.724319] (-) TimerEvent: {}
+[8.825513] (-) TimerEvent: {}
+[8.926929] (-) TimerEvent: {}
+[9.028111] (-) TimerEvent: {}
+[9.128929] (-) TimerEvent: {}
+[9.229858] (-) TimerEvent: {}
+[9.250291] (imu) StdoutLine: {'line': b'running egg_info\n'}
+[9.251294] (imu) StdoutLine: {'line': b'writing imu.egg-info/PKG-INFO\n'}
+[9.252456] (imu) StdoutLine: {'line': b'writing dependency_links to imu.egg-info/dependency_links.txt\n'}
+[9.253707] (imu) StdoutLine: {'line': b'writing entry points to imu.egg-info/entry_points.txt\n'}
+[9.254719] (imu) StdoutLine: {'line': b'writing requirements to imu.egg-info/requires.txt\n'}
+[9.255759] (imu) StdoutLine: {'line': b'writing top-level names to imu.egg-info/top_level.txt\n'}
+[9.259924] (gps_rtk2) StdoutLine: {'line': b'running egg_info\n'}
+[9.262953] (gps_rtk2) StdoutLine: {'line': b'writing gps_rtk2.egg-info/PKG-INFO\n'}
+[9.263461] (gps_rtk2) StdoutLine: {'line': b'writing dependency_links to gps_rtk2.egg-info/dependency_links.txt\n'}
+[9.263990] (gps_rtk2) StdoutLine: {'line': b'writing entry points to gps_rtk2.egg-info/entry_points.txt\n'}
+[9.264508] (gps_rtk2) StdoutLine: {'line': b'writing requirements to gps_rtk2.egg-info/requires.txt\n'}
+[9.264993] (gps_rtk2) StdoutLine: {'line': b'writing top-level names to gps_rtk2.egg-info/top_level.txt\n'}
+[9.330102] (-) TimerEvent: {}
+[9.422438] (imu) StdoutLine: {'line': b"reading manifest file 'imu.egg-info/SOURCES.txt'\n"}
+[9.423782] (gps_rtk2) StdoutLine: {'line': b"reading manifest file 'gps_rtk2.egg-info/SOURCES.txt'\n"}
+[9.427131] (imu) StdoutLine: {'line': b"writing manifest file 'imu.egg-info/SOURCES.txt'\n"}
+[9.428173] (gps_rtk2) StdoutLine: {'line': b"writing manifest file 'gps_rtk2.egg-info/SOURCES.txt'\n"}
+[9.430249] (-) TimerEvent: {}
+[9.531748] (-) TimerEvent: {}
+[9.633777] (-) TimerEvent: {}
+[9.647023] (gps_rtk2) StdoutLine: {'line': b'running build_ext\n'}
+[9.648189] (imu) StdoutLine: {'line': b'running build_ext\n'}
+[9.650544] (gps_rtk2) StdoutLine: {'line': b'Creating /home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages/gps-rtk2.egg-link (link to .)\n'}
+[9.651557] (imu) StdoutLine: {'line': b'Creating /home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages/imu.egg-link (link to .)\n'}
+[9.655014] (gps_rtk2) StdoutLine: {'line': b'Installing gps_read script to /home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/gps_rtk2\n'}
+[9.656159] (imu) StdoutLine: {'line': b'Installing imu_read script to /home/ubuntu/RasPi_GPS_IMU/install/imu/lib/imu\n'}
+[9.657805] (gps_rtk2) StdoutLine: {'line': b'\n'}
+[9.658418] (gps_rtk2) StdoutLine: {'line': b'Installed /home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2\n'}
+[9.659271] (gps_rtk2) StdoutLine: {'line': b'running install_data\n'}
+[9.669864] (imu) StdoutLine: {'line': b'\n'}
+[9.672140] (imu) StdoutLine: {'line': b'Installed /home/ubuntu/RasPi_GPS_IMU/build/imu\n'}
+[9.674235] (imu) StdoutLine: {'line': b'running install_data\n'}
+[9.734241] (-) TimerEvent: {}
+[9.874652] (gps_rtk2) CommandEnded: {'returncode': 0}
+[9.876281] (-) TimerEvent: {}
+[9.977360] (-) TimerEvent: {}
+[9.990084] (gps_rtk2) JobEnded: {'identifier': 'gps_rtk2', 'rc': 0}
+[10.001446] (imu) CommandEnded: {'returncode': 0}
+[10.060849] (imu) JobEnded: {'identifier': 'imu', 'rc': 0}
+[10.077535] (-) TimerEvent: {}
+[10.178223] (-) TimerEvent: {}
+[10.278998] (-) TimerEvent: {}
+[10.379795] (-) TimerEvent: {}
+[10.480624] (-) TimerEvent: {}
+[10.581419] (-) TimerEvent: {}
+[10.682167] (-) TimerEvent: {}
+[10.782880] (-) TimerEvent: {}
+[10.883650] (-) TimerEvent: {}
+[10.984398] (-) TimerEvent: {}
+[11.085104] (-) TimerEvent: {}
+[11.185824] (-) TimerEvent: {}
+[11.286559] (-) TimerEvent: {}
+[11.387261] (-) TimerEvent: {}
+[11.487982] (-) TimerEvent: {}
+[11.588790] (-) TimerEvent: {}
+[11.689544] (-) TimerEvent: {}
+[11.790283] (-) TimerEvent: {}
+[11.891148] (-) TimerEvent: {}
+[11.992134] (-) TimerEvent: {}
+[12.092825] (-) TimerEvent: {}
+[12.193520] (-) TimerEvent: {}
+[12.294244] (-) TimerEvent: {}
+[12.394957] (-) TimerEvent: {}
+[12.495677] (-) TimerEvent: {}
+[12.596461] (-) TimerEvent: {}
+[12.697169] (-) TimerEvent: {}
+[12.721908] (vnpy) StderrLine: {'line': b'\x1b[01m\x1b[Kvnpy/libvncxx_wrap.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPyObject* _wrap_delete_VnSensor(PyObject*, PyObject*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.722587] (vnpy) StderrLine: {'line': b'\x1b[01m\x1b[Kvnpy/libvncxx_wrap.cpp:52903:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kdeleting object of polymorphic class type \xe2\x80\x98\x1b[01m\x1b[Kvn::sensors::VnSensor\x1b[m\x1b[K\xe2\x80\x99 which has non-virtual destructor might cause undefined behavior [\x1b[01;35m\x1b[K-Wdelete-non-virtual-dtor\x1b[m\x1b[K]\n'}
+[12.723011] (vnpy) StderrLine: {'line': b'52903 |   delete \x1b[01;35m\x1b[Karg1\x1b[m\x1b[K;\n'}
+[12.723379] (vnpy) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[12.797353] (-) TimerEvent: {}
+[12.898067] (-) TimerEvent: {}
+[12.998780] (-) TimerEvent: {}
+[13.099494] (-) TimerEvent: {}
+[13.200272] (-) TimerEvent: {}
+[13.301026] (-) TimerEvent: {}
+[13.401776] (-) TimerEvent: {}
+[13.502502] (-) TimerEvent: {}
+[13.603239] (-) TimerEvent: {}
+[13.704109] (-) TimerEvent: {}
+[13.804997] (-) TimerEvent: {}
+[13.905777] (-) TimerEvent: {}
+[14.006603] (-) TimerEvent: {}
+[14.107427] (-) TimerEvent: {}
+[14.208636] (-) TimerEvent: {}
+[14.309889] (-) TimerEvent: {}
+[14.410725] (-) TimerEvent: {}
+[14.511542] (-) TimerEvent: {}
+[14.612368] (-) TimerEvent: {}
+[14.713137] (-) TimerEvent: {}
+[14.813874] (-) TimerEvent: {}
+[14.914598] (-) TimerEvent: {}
+[15.015395] (-) TimerEvent: {}
+[15.116305] (-) TimerEvent: {}
+[15.217162] (-) TimerEvent: {}
+[15.317919] (-) TimerEvent: {}
+[15.418768] (-) TimerEvent: {}
+[15.519567] (-) TimerEvent: {}
+[15.620533] (-) TimerEvent: {}
+[15.721272] (-) TimerEvent: {}
+[15.822018] (-) TimerEvent: {}
+[15.922870] (-) TimerEvent: {}
+[16.023742] (-) TimerEvent: {}
+[16.124620] (-) TimerEvent: {}
+[16.225449] (-) TimerEvent: {}
+[16.326363] (-) TimerEvent: {}
+[16.427530] (-) TimerEvent: {}
+[16.528298] (-) TimerEvent: {}
+[16.629032] (-) TimerEvent: {}
+[16.729787] (-) TimerEvent: {}
+[16.830529] (-) TimerEvent: {}
+[16.931293] (-) TimerEvent: {}
+[17.032034] (-) TimerEvent: {}
+[17.132823] (-) TimerEvent: {}
+[17.233576] (-) TimerEvent: {}
+[17.334433] (-) TimerEvent: {}
+[17.436888] (-) TimerEvent: {}
+[17.537720] (-) TimerEvent: {}
+[17.638857] (-) TimerEvent: {}
+[17.739654] (-) TimerEvent: {}
+[17.840451] (-) TimerEvent: {}
+[17.941164] (-) TimerEvent: {}
+[18.042002] (-) TimerEvent: {}
+[18.143056] (-) TimerEvent: {}
+[18.243797] (-) TimerEvent: {}
+[18.344525] (-) TimerEvent: {}
+[18.445516] (-) TimerEvent: {}
+[18.546256] (-) TimerEvent: {}
+[18.647074] (-) TimerEvent: {}
+[18.747839] (-) TimerEvent: {}
+[18.848615] (-) TimerEvent: {}
+[18.949383] (-) TimerEvent: {}
+[19.053034] (-) TimerEvent: {}
+[19.154425] (-) TimerEvent: {}
+[19.255245] (-) TimerEvent: {}
+[19.356014] (-) TimerEvent: {}
+[19.456766] (-) TimerEvent: {}
+[19.557466] (-) TimerEvent: {}
+[19.658199] (-) TimerEvent: {}
+[19.758953] (-) TimerEvent: {}
+[19.859699] (-) TimerEvent: {}
+[19.960511] (-) TimerEvent: {}
+[20.061265] (-) TimerEvent: {}
+[20.161989] (-) TimerEvent: {}
+[20.262772] (-) TimerEvent: {}
+[20.363504] (-) TimerEvent: {}
+[20.464271] (-) TimerEvent: {}
+[20.565127] (-) TimerEvent: {}
+[20.665870] (-) TimerEvent: {}
+[20.766610] (-) TimerEvent: {}
+[20.867364] (-) TimerEvent: {}
+[20.968100] (-) TimerEvent: {}
+[21.068816] (-) TimerEvent: {}
+[21.169578] (-) TimerEvent: {}
+[21.270336] (-) TimerEvent: {}
+[21.371044] (-) TimerEvent: {}
+[21.471793] (-) TimerEvent: {}
+[21.572553] (-) TimerEvent: {}
+[21.673273] (-) TimerEvent: {}
+[21.773984] (-) TimerEvent: {}
+[21.874715] (-) TimerEvent: {}
+[21.975423] (-) TimerEvent: {}
+[22.076391] (-) TimerEvent: {}
+[22.178072] (-) TimerEvent: {}
+[22.278813] (-) TimerEvent: {}
+[22.380024] (-) TimerEvent: {}
+[22.481091] (-) TimerEvent: {}
+[22.581832] (-) TimerEvent: {}
+[22.682566] (-) TimerEvent: {}
+[22.783595] (-) TimerEvent: {}
+[22.884368] (-) TimerEvent: {}
+[22.985191] (-) TimerEvent: {}
+[23.086078] (-) TimerEvent: {}
+[23.186972] (-) TimerEvent: {}
+[23.287819] (-) TimerEvent: {}
+[23.388704] (-) TimerEvent: {}
+[23.489770] (-) TimerEvent: {}
+[23.590735] (-) TimerEvent: {}
+[23.691574] (-) TimerEvent: {}
+[23.792421] (-) TimerEvent: {}
+[23.893320] (-) TimerEvent: {}
+[23.994054] (-) TimerEvent: {}
+[24.094884] (-) TimerEvent: {}
+[24.195663] (-) TimerEvent: {}
+[24.296502] (-) TimerEvent: {}
+[24.397214] (-) TimerEvent: {}
+[24.497935] (-) TimerEvent: {}
+[24.598639] (-) TimerEvent: {}
+[24.699387] (-) TimerEvent: {}
+[24.800235] (-) TimerEvent: {}
+[24.900933] (-) TimerEvent: {}
+[25.001646] (-) TimerEvent: {}
+[25.102401] (-) TimerEvent: {}
+[25.203147] (-) TimerEvent: {}
+[25.304106] (-) TimerEvent: {}
+[25.405376] (-) TimerEvent: {}
+[25.506734] (-) TimerEvent: {}
+[25.607589] (-) TimerEvent: {}
+[25.708296] (-) TimerEvent: {}
+[25.808998] (-) TimerEvent: {}
+[25.909714] (-) TimerEvent: {}
+[26.010473] (-) TimerEvent: {}
+[26.111510] (-) TimerEvent: {}
+[26.212483] (-) TimerEvent: {}
+[26.313264] (-) TimerEvent: {}
+[26.413962] (-) TimerEvent: {}
+[26.514728] (-) TimerEvent: {}
+[26.615740] (-) TimerEvent: {}
+[26.716875] (-) TimerEvent: {}
+[26.818466] (-) TimerEvent: {}
+[26.919294] (-) TimerEvent: {}
+[27.020090] (-) TimerEvent: {}
+[27.120828] (-) TimerEvent: {}
+[27.221700] (-) TimerEvent: {}
+[27.322428] (-) TimerEvent: {}
+[27.423250] (-) TimerEvent: {}
+[27.524040] (-) TimerEvent: {}
+[27.624737] (-) TimerEvent: {}
+[27.725456] (-) TimerEvent: {}
+[27.826174] (-) TimerEvent: {}
+[27.926881] (-) TimerEvent: {}
+[28.027621] (-) TimerEvent: {}
+[28.128371] (-) TimerEvent: {}
+[28.229081] (-) TimerEvent: {}
+[28.329784] (-) TimerEvent: {}
+[28.430492] (-) TimerEvent: {}
+[28.531225] (-) TimerEvent: {}
+[28.632031] (-) TimerEvent: {}
+[28.732789] (-) TimerEvent: {}
+[28.833815] (-) TimerEvent: {}
+[28.934568] (-) TimerEvent: {}
+[29.035268] (-) TimerEvent: {}
+[29.136023] (-) TimerEvent: {}
+[29.236791] (-) TimerEvent: {}
+[29.337597] (-) TimerEvent: {}
+[29.438362] (-) TimerEvent: {}
+[29.539144] (-) TimerEvent: {}
+[29.639985] (-) TimerEvent: {}
+[29.740732] (-) TimerEvent: {}
+[29.841576] (-) TimerEvent: {}
+[29.942484] (-) TimerEvent: {}
+[30.043268] (-) TimerEvent: {}
+[30.144123] (-) TimerEvent: {}
+[30.244845] (-) TimerEvent: {}
+[30.345571] (-) TimerEvent: {}
+[30.446309] (-) TimerEvent: {}
+[30.547063] (-) TimerEvent: {}
+[30.647865] (-) TimerEvent: {}
+[30.748626] (-) TimerEvent: {}
+[30.849432] (-) TimerEvent: {}
+[30.950236] (-) TimerEvent: {}
+[31.051780] (-) TimerEvent: {}
+[31.152569] (-) TimerEvent: {}
+[31.253280] (-) TimerEvent: {}
+[31.354022] (-) TimerEvent: {}
+[31.454795] (-) TimerEvent: {}
+[31.555564] (-) TimerEvent: {}
+[31.656305] (-) TimerEvent: {}
+[31.757040] (-) TimerEvent: {}
+[31.857811] (-) TimerEvent: {}
+[31.958612] (-) TimerEvent: {}
+[32.059273] (-) TimerEvent: {}
+[32.160039] (-) TimerEvent: {}
+[32.260735] (-) TimerEvent: {}
+[32.361440] (-) TimerEvent: {}
+[32.462140] (-) TimerEvent: {}
+[32.562836] (-) TimerEvent: {}
+[32.663529] (-) TimerEvent: {}
+[32.764284] (-) TimerEvent: {}
+[32.864996] (-) TimerEvent: {}
+[32.965755] (-) TimerEvent: {}
+[33.066820] (-) TimerEvent: {}
+[33.168514] (-) TimerEvent: {}
+[33.269362] (-) TimerEvent: {}
+[33.370110] (-) TimerEvent: {}
+[33.470894] (-) TimerEvent: {}
+[33.571650] (-) TimerEvent: {}
+[33.672409] (-) TimerEvent: {}
+[33.773130] (-) TimerEvent: {}
+[33.873856] (-) TimerEvent: {}
+[33.974613] (-) TimerEvent: {}
+[34.075356] (-) TimerEvent: {}
+[34.176124] (-) TimerEvent: {}
+[34.276842] (-) TimerEvent: {}
+[34.377933] (-) TimerEvent: {}
+[34.478696] (-) TimerEvent: {}
+[34.579671] (-) TimerEvent: {}
+[34.680397] (-) TimerEvent: {}
+[34.781374] (-) TimerEvent: {}
+[34.883125] (-) TimerEvent: {}
+[34.983895] (-) TimerEvent: {}
+[35.084749] (-) TimerEvent: {}
+[35.186013] (-) TimerEvent: {}
+[35.288028] (-) TimerEvent: {}
+[35.389107] (-) TimerEvent: {}
+[35.489957] (-) TimerEvent: {}
+[35.590849] (-) TimerEvent: {}
+[35.691617] (-) TimerEvent: {}
+[35.792362] (-) TimerEvent: {}
+[35.893208] (-) TimerEvent: {}
+[35.993929] (-) TimerEvent: {}
+[36.094711] (-) TimerEvent: {}
+[36.195473] (-) TimerEvent: {}
+[36.296202] (-) TimerEvent: {}
+[36.396898] (-) TimerEvent: {}
+[36.497644] (-) TimerEvent: {}
+[36.598540] (-) TimerEvent: {}
+[36.699273] (-) TimerEvent: {}
+[36.800021] (-) TimerEvent: {}
+[36.900728] (-) TimerEvent: {}
+[37.001491] (-) TimerEvent: {}
+[37.102297] (-) TimerEvent: {}
+[37.203031] (-) TimerEvent: {}
+[37.303736] (-) TimerEvent: {}
+[37.404475] (-) TimerEvent: {}
+[37.505161] (-) TimerEvent: {}
+[37.605866] (-) TimerEvent: {}
+[37.706586] (-) TimerEvent: {}
+[37.807314] (-) TimerEvent: {}
+[37.908090] (-) TimerEvent: {}
+[38.008824] (-) TimerEvent: {}
+[38.109557] (-) TimerEvent: {}
+[38.210305] (-) TimerEvent: {}
+[38.311057] (-) TimerEvent: {}
+[38.411793] (-) TimerEvent: {}
+[38.512654] (-) TimerEvent: {}
+[38.613377] (-) TimerEvent: {}
+[38.714083] (-) TimerEvent: {}
+[38.814900] (-) TimerEvent: {}
+[38.915605] (-) TimerEvent: {}
+[39.016381] (-) TimerEvent: {}
+[39.117077] (-) TimerEvent: {}
+[39.217863] (-) TimerEvent: {}
+[40.325941] (-) TimerEvent: {}
+[40.426631] (-) TimerEvent: {}
+[40.527371] (-) TimerEvent: {}
+[40.628106] (-) TimerEvent: {}
+[40.728868] (-) TimerEvent: {}
+[40.829660] (-) TimerEvent: {}
+[40.930495] (-) TimerEvent: {}
+[41.031300] (-) TimerEvent: {}
+[41.132092] (-) TimerEvent: {}
+[41.232793] (-) TimerEvent: {}
+[41.333557] (-) TimerEvent: {}
+[41.434305] (-) TimerEvent: {}
+[41.535023] (-) TimerEvent: {}
+[41.635862] (-) TimerEvent: {}
+[41.736769] (-) TimerEvent: {}
+[41.837469] (-) TimerEvent: {}
+[41.938201] (-) TimerEvent: {}
+[42.038983] (-) TimerEvent: {}
+[42.139748] (-) TimerEvent: {}
+[42.240508] (-) TimerEvent: {}
+[42.341254] (-) TimerEvent: {}
+[42.442198] (-) TimerEvent: {}
+[42.542958] (-) TimerEvent: {}
+[42.643778] (-) TimerEvent: {}
+[42.744581] (-) TimerEvent: {}
+[42.845306] (-) TimerEvent: {}
+[42.946129] (-) TimerEvent: {}
+[42.964329] (vnpy) StderrLine: {'line': b'interrupted\n'}
+[43.046459] (-) TimerEvent: {}
+[43.094494] (vnpy) CommandEnded: {'returncode': 1}
+[43.096346] (vnpy) JobEnded: {'identifier': 'vnpy', 'rc': 'SIGINT'}
+[43.106582] (-) EventReactorShutdown: {}

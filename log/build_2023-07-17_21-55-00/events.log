@@ -1,0 +1,282 @@
+[0.000000] (-) TimerEvent: {}
+[0.001006] (gps_rtk2) JobQueued: {'identifier': 'gps_rtk2', 'dependencies': OrderedDict()}
+[0.001306] (imu) JobQueued: {'identifier': 'imu', 'dependencies': OrderedDict()}
+[0.002102] (vnpy) JobQueued: {'identifier': 'vnpy', 'dependencies': OrderedDict()}
+[0.002710] (gps_rtk2) JobStarted: {'identifier': 'gps_rtk2'}
+[0.065120] (imu) JobStarted: {'identifier': 'imu'}
+[0.100957] (-) TimerEvent: {}
+[0.122200] (vnpy) JobStarted: {'identifier': 'vnpy'}
+[0.201264] (-) TimerEvent: {}
+[0.302140] (-) TimerEvent: {}
+[0.402898] (-) TimerEvent: {}
+[0.503596] (-) TimerEvent: {}
+[0.604300] (-) TimerEvent: {}
+[0.705066] (-) TimerEvent: {}
+[0.805698] (-) TimerEvent: {}
+[0.906348] (-) TimerEvent: {}
+[1.006982] (-) TimerEvent: {}
+[1.107734] (-) TimerEvent: {}
+[1.208792] (-) TimerEvent: {}
+[1.309684] (-) TimerEvent: {}
+[1.410421] (-) TimerEvent: {}
+[1.511211] (-) TimerEvent: {}
+[1.612039] (-) TimerEvent: {}
+[1.712683] (-) TimerEvent: {}
+[1.813329] (-) TimerEvent: {}
+[1.914002] (-) TimerEvent: {}
+[2.014662] (-) TimerEvent: {}
+[2.116314] (-) TimerEvent: {}
+[2.217228] (-) TimerEvent: {}
+[2.318191] (-) TimerEvent: {}
+[2.419050] (-) TimerEvent: {}
+[2.520540] (-) TimerEvent: {}
+[2.621203] (-) TimerEvent: {}
+[2.721828] (-) TimerEvent: {}
+[2.822491] (-) TimerEvent: {}
+[2.923141] (-) TimerEvent: {}
+[3.023948] (-) TimerEvent: {}
+[3.125007] (-) TimerEvent: {}
+[3.226477] (-) TimerEvent: {}
+[3.327566] (-) TimerEvent: {}
+[3.429074] (-) TimerEvent: {}
+[3.530173] (-) TimerEvent: {}
+[3.632301] (-) TimerEvent: {}
+[3.737982] (-) TimerEvent: {}
+[3.842348] (-) TimerEvent: {}
+[3.943570] (-) TimerEvent: {}
+[4.044795] (-) TimerEvent: {}
+[4.146195] (-) TimerEvent: {}
+[4.247707] (-) TimerEvent: {}
+[4.348585] (-) TimerEvent: {}
+[4.410855] (vnpy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'build', '--build-base', '/home/ubuntu/RasPi_GPS_IMU/build/vnpy/build', 'install', '--record', '/home/ubuntu/RasPi_GPS_IMU/build/vnpy/install.log'], 'cwd': '/home/ubuntu/RasPi_GPS_IMU/src/vectornav_python library', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '2247', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2004', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:45380', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2356,unix/ubuntu:/tmp/.ICE-unix/2356', 'INVOCATION_ID': '9132de938b1e452995258aa39c25ba9a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58575bd6_d29b_4ed9_9a3c_14a48c618757', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install/imu:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/RasPi_GPS_IMU/build/vnpy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/RasPi_GPS_IMU/build/vnpy/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/vnpy/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/imu:/home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[4.448784] (-) TimerEvent: {}
+[4.550430] (-) TimerEvent: {}
+[4.624954] (vnpy) StdoutLine: {'line': b'running build\n'}
+[4.626319] (vnpy) StdoutLine: {'line': b'running build_py\n'}
+[4.630584] (vnpy) StdoutLine: {'line': b'running build_ext\n'}
+[4.641540] (vnpy) StdoutLine: {'line': b"building 'vnpy._libvncxx' extension\n"}
+[4.645349] (vnpy) StdoutLine: {'line': b'aarch64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Ilibvncxx/include -Ilibvncxx/libvnc/include -I/home/ubuntu/RasPi_GPS_IMU/install/vnpy/include -I/usr/include/python3.8 -c vnpy/libvncxx_wrap.cpp -o /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/vnpy/libvncxx_wrap.o\n'}
+[4.650565] (-) TimerEvent: {}
+[4.751717] (-) TimerEvent: {}
+[4.852667] (-) TimerEvent: {}
+[4.954093] (-) TimerEvent: {}
+[5.055465] (-) TimerEvent: {}
+[5.158129] (-) TimerEvent: {}
+[5.261595] (-) TimerEvent: {}
+[5.293358] (gps_rtk2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '2247', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2004', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:45380', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2356,unix/ubuntu:/tmp/.ICE-unix/2356', 'INVOCATION_ID': '9132de938b1e452995258aa39c25ba9a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58575bd6_d29b_4ed9_9a3c_14a48c618757', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install/imu:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/imu:/home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[5.322763] (imu) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/RasPi_GPS_IMU/build/imu/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/RasPi_GPS_IMU/build/imu', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '2247', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2004', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:45380', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2356,unix/ubuntu:/tmp/.ICE-unix/2356', 'INVOCATION_ID': '9132de938b1e452995258aa39c25ba9a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58575bd6_d29b_4ed9_9a3c_14a48c618757', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/RasPi_GPS_IMU/install/imu:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/RasPi_GPS_IMU/build/imu', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/RasPi_GPS_IMU/build/imu/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/imu:/home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages:/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[5.361849] (-) TimerEvent: {}
+[5.463511] (-) TimerEvent: {}
+[5.564467] (-) TimerEvent: {}
+[5.665471] (-) TimerEvent: {}
+[5.766437] (-) TimerEvent: {}
+[5.867723] (-) TimerEvent: {}
+[5.968968] (-) TimerEvent: {}
+[6.070351] (-) TimerEvent: {}
+[6.171722] (-) TimerEvent: {}
+[6.273028] (-) TimerEvent: {}
+[6.374359] (-) TimerEvent: {}
+[6.475740] (-) TimerEvent: {}
+[6.577206] (-) TimerEvent: {}
+[6.678556] (-) TimerEvent: {}
+[6.744501] (gps_rtk2) StdoutLine: {'line': b'running develop\n'}
+[6.775751] (imu) StdoutLine: {'line': b'running develop\n'}
+[6.778690] (-) TimerEvent: {}
+[6.879951] (-) TimerEvent: {}
+[6.981273] (-) TimerEvent: {}
+[7.082147] (-) TimerEvent: {}
+[7.183118] (-) TimerEvent: {}
+[7.283990] (-) TimerEvent: {}
+[7.385372] (-) TimerEvent: {}
+[7.486786] (-) TimerEvent: {}
+[7.588090] (-) TimerEvent: {}
+[7.689532] (-) TimerEvent: {}
+[7.750709] (gps_rtk2) StdoutLine: {'line': b'running egg_info\n'}
+[7.751824] (gps_rtk2) StdoutLine: {'line': b'writing gps_rtk2.egg-info/PKG-INFO\n'}
+[7.752810] (gps_rtk2) StdoutLine: {'line': b'writing dependency_links to gps_rtk2.egg-info/dependency_links.txt\n'}
+[7.753814] (gps_rtk2) StdoutLine: {'line': b'writing entry points to gps_rtk2.egg-info/entry_points.txt\n'}
+[7.754835] (gps_rtk2) StdoutLine: {'line': b'writing requirements to gps_rtk2.egg-info/requires.txt\n'}
+[7.756071] (gps_rtk2) StdoutLine: {'line': b'writing top-level names to gps_rtk2.egg-info/top_level.txt\n'}
+[7.789735] (-) TimerEvent: {}
+[7.791139] (imu) StdoutLine: {'line': b'running egg_info\n'}
+[7.792481] (imu) StdoutLine: {'line': b'writing imu.egg-info/PKG-INFO\n'}
+[7.793524] (imu) StdoutLine: {'line': b'writing dependency_links to imu.egg-info/dependency_links.txt\n'}
+[7.794493] (imu) StdoutLine: {'line': b'writing entry points to imu.egg-info/entry_points.txt\n'}
+[7.795511] (imu) StdoutLine: {'line': b'writing requirements to imu.egg-info/requires.txt\n'}
+[7.796523] (imu) StdoutLine: {'line': b'writing top-level names to imu.egg-info/top_level.txt\n'}
+[7.889925] (-) TimerEvent: {}
+[7.909567] (gps_rtk2) StdoutLine: {'line': b"reading manifest file 'gps_rtk2.egg-info/SOURCES.txt'\n"}
+[7.913428] (gps_rtk2) StdoutLine: {'line': b"writing manifest file 'gps_rtk2.egg-info/SOURCES.txt'\n"}
+[7.958089] (imu) StdoutLine: {'line': b"reading manifest file 'imu.egg-info/SOURCES.txt'\n"}
+[7.961788] (imu) StdoutLine: {'line': b"writing manifest file 'imu.egg-info/SOURCES.txt'\n"}
+[7.990129] (-) TimerEvent: {}
+[8.091703] (-) TimerEvent: {}
+[8.130021] (gps_rtk2) StdoutLine: {'line': b'running build_ext\n'}
+[8.131791] (gps_rtk2) StdoutLine: {'line': b'Creating /home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages/gps-rtk2.egg-link (link to .)\n'}
+[8.137136] (gps_rtk2) StdoutLine: {'line': b'Installing gps_read script to /home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/gps_rtk2\n'}
+[8.138985] (gps_rtk2) StdoutLine: {'line': b'\n'}
+[8.139923] (gps_rtk2) StdoutLine: {'line': b'Installed /home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2\n'}
+[8.140738] (gps_rtk2) StdoutLine: {'line': b'running install_data\n'}
+[8.192049] (-) TimerEvent: {}
+[8.217083] (imu) StdoutLine: {'line': b'running build_ext\n'}
+[8.219835] (imu) StdoutLine: {'line': b'Creating /home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages/imu.egg-link (link to .)\n'}
+[8.229179] (imu) StdoutLine: {'line': b'Installing imu_read script to /home/ubuntu/RasPi_GPS_IMU/install/imu/lib/imu\n'}
+[8.232681] (imu) StdoutLine: {'line': b'\n'}
+[8.236569] (imu) StdoutLine: {'line': b'Installed /home/ubuntu/RasPi_GPS_IMU/build/imu\n'}
+[8.238583] (imu) StdoutLine: {'line': b'running install_data\n'}
+[8.292361] (-) TimerEvent: {}
+[8.362726] (gps_rtk2) CommandEnded: {'returncode': 0}
+[8.397980] (-) TimerEvent: {}
+[8.510934] (-) TimerEvent: {}
+[8.530939] (gps_rtk2) JobEnded: {'identifier': 'gps_rtk2', 'rc': 0}
+[8.546552] (imu) CommandEnded: {'returncode': 0}
+[8.603100] (imu) JobEnded: {'identifier': 'imu', 'rc': 0}
+[8.611093] (-) TimerEvent: {}
+[8.711768] (-) TimerEvent: {}
+[8.812554] (-) TimerEvent: {}
+[8.913258] (-) TimerEvent: {}
+[9.013982] (-) TimerEvent: {}
+[9.114727] (-) TimerEvent: {}
+[9.215441] (-) TimerEvent: {}
+[9.316149] (-) TimerEvent: {}
+[9.416904] (-) TimerEvent: {}
+[9.517598] (-) TimerEvent: {}
+[9.618331] (-) TimerEvent: {}
+[9.719092] (-) TimerEvent: {}
+[9.820034] (-) TimerEvent: {}
+[9.920832] (-) TimerEvent: {}
+[10.021562] (-) TimerEvent: {}
+[10.122304] (-) TimerEvent: {}
+[10.223059] (-) TimerEvent: {}
+[10.323812] (-) TimerEvent: {}
+[10.424526] (-) TimerEvent: {}
+[10.498699] (vnpy) StderrLine: {'line': b'\x1b[01m\x1b[Kvnpy/libvncxx_wrap.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPyObject* _wrap_delete_VnSensor(PyObject*, PyObject*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.499362] (vnpy) StderrLine: {'line': b'\x1b[01m\x1b[Kvnpy/libvncxx_wrap.cpp:52903:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kdeleting object of polymorphic class type \xe2\x80\x98\x1b[01m\x1b[Kvn::sensors::VnSensor\x1b[m\x1b[K\xe2\x80\x99 which has non-virtual destructor might cause undefined behavior [\x1b[01;35m\x1b[K-Wdelete-non-virtual-dtor\x1b[m\x1b[K]\n'}
+[10.499784] (vnpy) StderrLine: {'line': b'52903 |   delete \x1b[01;35m\x1b[Karg1\x1b[m\x1b[K;\n'}
+[10.500139] (vnpy) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.524701] (-) TimerEvent: {}
+[10.625500] (-) TimerEvent: {}
+[10.726310] (-) TimerEvent: {}
+[10.827048] (-) TimerEvent: {}
+[10.927756] (-) TimerEvent: {}
+[11.028458] (-) TimerEvent: {}
+[11.129180] (-) TimerEvent: {}
+[11.229943] (-) TimerEvent: {}
+[11.330726] (-) TimerEvent: {}
+[11.431432] (-) TimerEvent: {}
+[11.532144] (-) TimerEvent: {}
+[11.632916] (-) TimerEvent: {}
+[11.733708] (-) TimerEvent: {}
+[11.834624] (-) TimerEvent: {}
+[11.935354] (-) TimerEvent: {}
+[12.036091] (-) TimerEvent: {}
+[12.136964] (-) TimerEvent: {}
+[12.237788] (-) TimerEvent: {}
+[12.338602] (-) TimerEvent: {}
+[12.439350] (-) TimerEvent: {}
+[12.540103] (-) TimerEvent: {}
+[12.640895] (-) TimerEvent: {}
+[12.741708] (-) TimerEvent: {}
+[12.842522] (-) TimerEvent: {}
+[12.943271] (-) TimerEvent: {}
+[13.044015] (-) TimerEvent: {}
+[13.144790] (-) TimerEvent: {}
+[13.245882] (-) TimerEvent: {}
+[13.348603] (-) TimerEvent: {}
+[13.449365] (-) TimerEvent: {}
+[13.550162] (-) TimerEvent: {}
+[13.650983] (-) TimerEvent: {}
+[13.751745] (-) TimerEvent: {}
+[13.852570] (-) TimerEvent: {}
+[13.953452] (-) TimerEvent: {}
+[14.054311] (-) TimerEvent: {}
+[14.155022] (-) TimerEvent: {}
+[14.255744] (-) TimerEvent: {}
+[14.356498] (-) TimerEvent: {}
+[14.457238] (-) TimerEvent: {}
+[14.557963] (-) TimerEvent: {}
+[14.658685] (-) TimerEvent: {}
+[14.759387] (-) TimerEvent: {}
+[14.860134] (-) TimerEvent: {}
+[14.961013] (-) TimerEvent: {}
+[15.061757] (-) TimerEvent: {}
+[15.162503] (-) TimerEvent: {}
+[15.263205] (-) TimerEvent: {}
+[15.363939] (-) TimerEvent: {}
+[15.464661] (-) TimerEvent: {}
+[15.565520] (-) TimerEvent: {}
+[15.666326] (-) TimerEvent: {}
+[15.767053] (-) TimerEvent: {}
+[15.867771] (-) TimerEvent: {}
+[15.968477] (-) TimerEvent: {}
+[16.069258] (-) TimerEvent: {}
+[16.169983] (-) TimerEvent: {}
+[16.270721] (-) TimerEvent: {}
+[16.371432] (-) TimerEvent: {}
+[16.472168] (-) TimerEvent: {}
+[16.572973] (-) TimerEvent: {}
+[16.673706] (-) TimerEvent: {}
+[16.774417] (-) TimerEvent: {}
+[16.875118] (-) TimerEvent: {}
+[16.975874] (-) TimerEvent: {}
+[17.076596] (-) TimerEvent: {}
+[17.177350] (-) TimerEvent: {}
+[17.278112] (-) TimerEvent: {}
+[17.378866] (-) TimerEvent: {}
+[17.479612] (-) TimerEvent: {}
+[17.580337] (-) TimerEvent: {}
+[17.681103] (-) TimerEvent: {}
+[17.781896] (-) TimerEvent: {}
+[17.882653] (-) TimerEvent: {}
+[17.983370] (-) TimerEvent: {}
+[18.084082] (-) TimerEvent: {}
+[18.184885] (-) TimerEvent: {}
+[18.285598] (-) TimerEvent: {}
+[18.386365] (-) TimerEvent: {}
+[18.487070] (-) TimerEvent: {}
+[18.587782] (-) TimerEvent: {}
+[18.688501] (-) TimerEvent: {}
+[18.789251] (-) TimerEvent: {}
+[18.890023] (-) TimerEvent: {}
+[18.990821] (-) TimerEvent: {}
+[19.091549] (-) TimerEvent: {}
+[19.192268] (-) TimerEvent: {}
+[19.292980] (-) TimerEvent: {}
+[19.393835] (-) TimerEvent: {}
+[19.494874] (-) TimerEvent: {}
+[19.595586] (-) TimerEvent: {}
+[19.696293] (-) TimerEvent: {}
+[19.797020] (-) TimerEvent: {}
+[19.897901] (-) TimerEvent: {}
+[19.999062] (-) TimerEvent: {}
+[20.099790] (-) TimerEvent: {}
+[20.200761] (-) TimerEvent: {}
+[20.301647] (-) TimerEvent: {}
+[20.402479] (-) TimerEvent: {}
+[20.503246] (-) TimerEvent: {}
+[20.604034] (-) TimerEvent: {}
+[20.704806] (-) TimerEvent: {}
+[20.805599] (-) TimerEvent: {}
+[20.906399] (-) TimerEvent: {}
+[21.007242] (-) TimerEvent: {}
+[21.108029] (-) TimerEvent: {}
+[21.208769] (-) TimerEvent: {}
+[21.309627] (-) TimerEvent: {}
+[21.410428] (-) TimerEvent: {}
+[21.511206] (-) TimerEvent: {}
+[21.611918] (-) TimerEvent: {}
+[21.712692] (-) TimerEvent: {}
+[21.813447] (-) TimerEvent: {}
+[21.914207] (-) TimerEvent: {}
+[22.014987] (-) TimerEvent: {}
+[22.115808] (-) TimerEvent: {}
+[22.216599] (-) TimerEvent: {}
+[22.317339] (-) TimerEvent: {}
+[22.418069] (-) TimerEvent: {}
+[22.518887] (-) TimerEvent: {}
+[22.619635] (-) TimerEvent: {}
+[22.715816] (vnpy) StderrLine: {'line': b'interrupted\n'}
+[22.719962] (-) TimerEvent: {}
+[22.770769] (vnpy) CommandEnded: {'returncode': 1}
+[22.771965] (vnpy) JobEnded: {'identifier': 'vnpy', 'rc': 'SIGINT'}
+[22.783085] (-) EventReactorShutdown: {}

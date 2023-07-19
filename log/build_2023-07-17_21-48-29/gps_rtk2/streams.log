@@ -1,0 +1,17 @@
+[5.284s] Invoking command in '/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2': PYTHONPATH=/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2/build --no-deps install_data
+[6.752s] running develop
+[7.750s] running egg_info
+[7.751s] writing gps_rtk2.egg-info/PKG-INFO
+[7.752s] writing dependency_links to gps_rtk2.egg-info/dependency_links.txt
+[7.753s] writing entry points to gps_rtk2.egg-info/entry_points.txt
+[7.754s] writing requirements to gps_rtk2.egg-info/requires.txt
+[7.755s] writing top-level names to gps_rtk2.egg-info/top_level.txt
+[7.911s] reading manifest file 'gps_rtk2.egg-info/SOURCES.txt'
+[7.914s] writing manifest file 'gps_rtk2.egg-info/SOURCES.txt'
+[8.124s] running build_ext
+[8.126s] Creating /home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages/gps-rtk2.egg-link (link to .)
+[8.134s] Installing gps_read script to /home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/gps_rtk2
+[8.137s] 
+[8.138s] Installed /home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2
+[8.139s] running install_data
+[8.346s] Invoked command in '/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2' returned '0': PYTHONPATH=/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2/build --no-deps install_data

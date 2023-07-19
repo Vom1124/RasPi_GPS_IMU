@@ -1,0 +1,12 @@
+[4.286s] Invoking command in '/home/ubuntu/RasPi_GPS_IMU/src/vectornav_python library': PYTHONPATH=/home/ubuntu/RasPi_GPS_IMU/build/vnpy/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/vnpy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py build --build-base /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build install --record /home/ubuntu/RasPi_GPS_IMU/build/vnpy/install.log
+[4.498s] running build
+[4.499s] running build_py
+[4.503s] running build_ext
+[4.515s] building 'vnpy._libvncxx' extension
+[4.518s] aarch64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Ilibvncxx/include -Ilibvncxx/libvnc/include -I/home/ubuntu/RasPi_GPS_IMU/install/vnpy/include -I/usr/include/python3.8 -c vnpy/libvncxx_wrap.cpp -o /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/vnpy/libvncxx_wrap.o
+[10.372s] [01m[Kvnpy/libvncxx_wrap.cpp:[m[K In function ‘[01m[KPyObject* _wrap_delete_VnSensor(PyObject*, PyObject*)[m[K’:
+[10.372s] [01m[Kvnpy/libvncxx_wrap.cpp:52903:10:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[Kvn::sensors::VnSensor[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+[10.373s] 52903 |   delete [01;35m[Karg1[m[K;
+[10.373s]       |          [01;35m[K^~~~[m[K
+[22.591s] interrupted
+[22.644s] Invoked command in '/home/ubuntu/RasPi_GPS_IMU/src/vectornav_python library' returned '1': PYTHONPATH=/home/ubuntu/RasPi_GPS_IMU/build/vnpy/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/vnpy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py build --build-base /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build install --record /home/ubuntu/RasPi_GPS_IMU/build/vnpy/install.log

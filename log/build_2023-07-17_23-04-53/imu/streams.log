@@ -1,0 +1,18 @@
+[3.954s] Invoking command in '/home/ubuntu/RasPi_GPS_IMU/build/imu': PYTHONPATH=/home/ubuntu/RasPi_GPS_IMU/build/imu/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/RasPi_GPS_IMU/build/imu/build --no-deps install_data
+[5.064s] running develop
+[5.784s] running egg_info
+[5.785s] writing imu.egg-info/PKG-INFO
+[5.786s] writing dependency_links to imu.egg-info/dependency_links.txt
+[5.787s] writing entry points to imu.egg-info/entry_points.txt
+[5.787s] writing requirements to imu.egg-info/requires.txt
+[5.788s] writing top-level names to imu.egg-info/top_level.txt
+[5.922s] reading manifest file 'imu.egg-info/SOURCES.txt'
+[5.925s] writing manifest file 'imu.egg-info/SOURCES.txt'
+[6.101s] running build_ext
+[6.103s] Creating /home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages/imu.egg-link (link to .)
+[6.110s] Installing imu_read script to /home/ubuntu/RasPi_GPS_IMU/install/imu/lib/imu
+[6.111s] Installing imu_test script to /home/ubuntu/RasPi_GPS_IMU/install/imu/lib/imu
+[6.113s] 
+[6.114s] Installed /home/ubuntu/RasPi_GPS_IMU/build/imu
+[6.116s] running install_data
+[6.373s] Invoked command in '/home/ubuntu/RasPi_GPS_IMU/build/imu' returned '0': PYTHONPATH=/home/ubuntu/RasPi_GPS_IMU/build/imu/prefix_override:/home/ubuntu/RasPi_GPS_IMU/install/imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/RasPi_GPS_IMU/build/imu/build --no-deps install_data

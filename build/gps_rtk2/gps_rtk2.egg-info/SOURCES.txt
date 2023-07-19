@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+gps_rtk2/__init__.py
+gps_rtk2/gps_pub.py
+gps_rtk2.egg-info/PKG-INFO
+gps_rtk2.egg-info/SOURCES.txt
+gps_rtk2.egg-info/dependency_links.txt
+gps_rtk2.egg-info/entry_points.txt
+gps_rtk2.egg-info/requires.txt
+gps_rtk2.egg-info/top_level.txt
+gps_rtk2.egg-info/zip-safe
+resource/gps_rtk2

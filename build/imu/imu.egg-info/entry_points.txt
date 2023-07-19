@@ -1,0 +1,4 @@
+[console_scripts]
+imu_read = imu.imu_pub_w_VnSensor:main
+imu_test = imu.imu_pub_wo_VnSensor:main
+

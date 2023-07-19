@@ -1,0 +1,23 @@
+running build
+running build_py
+creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build
+creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/lib.linux-aarch64-3.8
+creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/lib.linux-aarch64-3.8/vnpy
+copying vnpy/libvncxx.py -> /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/lib.linux-aarch64-3.8/vnpy
+copying vnpy/conv.py -> /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/lib.linux-aarch64-3.8/vnpy
+copying vnpy/__init__.py -> /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/lib.linux-aarch64-3.8/vnpy
+running build_ext
+building 'vnpy._libvncxx' extension
+creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8
+creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/vnpy
+creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/libvncxx
+creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/libvncxx/src
+creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/libvncxx/src/devices
+creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/libvncxx/libvnc
+creating /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/libvncxx/libvnc/src
+aarch64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Ilibvncxx/include -Ilibvncxx/libvnc/include -I/home/ubuntu/RasPi_GPS_IMU/install/vnpy/include -I/usr/include/python3.8 -c vnpy/libvncxx_wrap.cpp -o /home/ubuntu/RasPi_GPS_IMU/build/vnpy/build/temp.linux-aarch64-3.8/vnpy/libvncxx_wrap.o
+[01m[Kvnpy/libvncxx_wrap.cpp:[m[K In function ‘[01m[KPyObject* _wrap_delete_VnSensor(PyObject*, PyObject*)[m[K’:
+[01m[Kvnpy/libvncxx_wrap.cpp:52903:10:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[Kvn::sensors::VnSensor[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+52903 |   delete [01;35m[Karg1[m[K;
+      |          [01;35m[K^~~~[m[K
+interrupted

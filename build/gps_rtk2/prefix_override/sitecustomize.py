@@ -1,0 +1,3 @@
+import sys
+sys.real_prefix = sys.prefix
+sys.prefix = sys.exec_prefix = '/home/ubuntu/RasPi_GPS_IMU/install/gps_rtk2'

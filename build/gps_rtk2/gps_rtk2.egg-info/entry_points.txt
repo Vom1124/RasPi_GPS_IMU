@@ -1,0 +1,3 @@
+[console_scripts]
+gps_read = gps_rtk2.gps_pub:main
+
