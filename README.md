@@ -14,17 +14,15 @@ Prerequisites:
   Packages to be installed:
 
   1) GPS_RTK2: 
-      The only package required to be installed additional to the python is pyserial for python serial port communication, which can be installed using the following.
+      The packages required to be installed additional to the python is pyserial for python serial port communication and pynmea2 for NMEA 0183 message structure, which are to be installed using the following.
 
-         pip install pyserial 
-      for python
+         pip3 install pyserial
+       for pyserial and
      
-        OR
-
-          pip3 install pyserial
-       for python3.
-         
-      The node uses usb communication using '/dev/ttyACM0'. But check this value by verifying using
+          pip3 install pynmea2
+       for NMEA 0183 message protocol.
+       
+     The node uses usb communication using '/dev/ttyACM0'. But check this value by verifying using
 
            ls /dev/tty*
      
