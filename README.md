@@ -14,7 +14,7 @@ Prerequisites:
   Packages to be installed:
 
   1) GPS_RTK2: 
-      The only package required to be installed additional to the python is pyserial for python serial port communication, which can be installed using
+      The only package required to be installed additional to the python is pyserial for python serial port communication, which can be installed using the following.
 
          pip install pyserial 
       for python
@@ -53,4 +53,4 @@ Once all the necessary packages are installed and verified, simply start the ros
 
             colcon build --symlink-install
 
-and sourcing the terminal before running the nodes. 
+and sourcing the terminal before running the nodes. At least build and source once before opening a new terminal to avoid any error. 
