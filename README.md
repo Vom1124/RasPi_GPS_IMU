@@ -28,6 +28,10 @@ Prerequisites:
      
      Usually, it's ttyACM* by default, but can take the value 0,1,2,... depending upon how it configures the USB connection.
 
+     Edit the permission for the connected USB device if not done before or if a new OS is installed
+
+           sudo chmod 0777 /dev/ttyACM0
+
   3) VECTORNAV IMU:
      This requires a python package called "vnpy" which needs to be installed from the vnprogib provided by the VECTORNAV manufacturer. Once the library is obtained; travese through the python folder under vnproglib directory and run
 
@@ -35,7 +39,11 @@ Prerequisites:
 
      to install the vnpy package.
 
-     Similar to GPS_RTK2, this uses serial communication as well. Depending on the device type, the system will configure and recognize differently. For this device, the Linux recognized as "/dev/ttyACM*". Check the number once again if it's 0,1,2, ... by displaying all the devices under tty using "ls /dev/tty*" command.
+     Similar to GPS_RTK2, this uses serial communication as well. Depending on the device type, the system will configure and recognize differently. For this device, the Linux recognized as "/dev/ttyUSB*". Check the number once again if it's 0,1,2, ... by displaying all the devices under tty using "ls /dev/tty*" command.
+
+     Again, edit the permission to the connected USB device to give the communication permission
+
+         sudo chmod 0777 /dev/ttyUSB0
 
 Once all the necessary packages are installed and verified, simply start the ros2 nodes as*
 
