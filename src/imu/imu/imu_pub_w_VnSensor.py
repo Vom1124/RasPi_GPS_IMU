@@ -73,6 +73,7 @@ class ImuPublisher(Node):
         orientation_reading = self.sensor.read_attitude_quaternion()
         position_msg.orientation = create_quaternion(orientation_reading)
         (roll, pitch, yaw) = euler_from_quaternion(position_msg.orientation)
+        print('\nIMU data:  \n\tOrientation: \n\tYaw:{} \n\tPitch:{} \n\tRoll:{} \n'.format(yaw,pitch,roll))
         # # Orientation covariance
         #position_msg.orientation_covariance = position_cov_matrix
     
@@ -116,8 +117,9 @@ class ImuPublisher(Node):
 
         # Publish position and magnetic
         self.publisher_position.publish(position_msg)
-        print('\nIMU data:  \n\tOrientation: {} \n\tAngular Velocity: {} \n\tLinear Acceleration: {} \n'\
-        .format(orientation_reading, angular_velocity_reading, linear_acceleration_reading)) 
+        #print('\nIMU data:  \n\tOrientation: {} \n\tAngular Velocity: {} \n\tLinear Acceleration: {} \n'\
+        #.format(orientation_reading, angular_velocity_reading, linear_acceleration_reading)) 
+        
         self.publisher_magnetic.publish(magnetic_msg)
 
 def main(args=None):
