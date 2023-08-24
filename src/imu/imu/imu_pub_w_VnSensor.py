@@ -6,6 +6,8 @@ from rclpy.node import Node
 from sensor_msgs.msg import Imu, MagneticField
 from geometry_msgs.msg import Quaternion, Vector3
 
+from tf_transformations import euler_from_quaternion
+
 from math import pow, radians
 
 from vnpy import VnSensor
@@ -70,7 +72,7 @@ class ImuPublisher(Node):
         # # Orientation
         orientation_reading = self.sensor.read_attitude_quaternion()
         position_msg.orientation = create_quaternion(orientation_reading)
-
+        (roll, pitch, yaw) = euler_from_quaternion(position_msg.orientation)
         # # Orientation covariance
         #position_msg.orientation_covariance = position_cov_matrix
     
