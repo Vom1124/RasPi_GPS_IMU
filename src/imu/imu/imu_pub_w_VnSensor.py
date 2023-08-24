@@ -70,10 +70,11 @@ class ImuPublisher(Node):
         position_msg = Imu()
 
         # # Orientation
-        orientation_reading = self.sensor.read_attitude_quaternion()
-        position_msg.orientation = create_quaternion(orientation_reading)
-        (roll, pitch, yaw) = euler_from_quaternion(position_msg.orientation)
-        print('\nIMU data:  \n\tOrientation: \n\tYaw:{} \n\tPitch:{} \n\tRoll:{} \n'.format(yaw,pitch,roll))
+        orientation_msg = self.sensor.read_attitude_quaternion()
+        orientation_reading = [orientation_msg.x, orientation_msg.y, orientation_msg.z, orientation_msg.w]
+        position_msg.orientation = create_quaternion(orientation_msg)
+        (roll, pitch, yaw) = euler_from_quaternion(orientation_reading)
+        print('\nIMU data:  \n\tOrientation: \n\t\tYaw:{} \n\t\tPitch:{} \n\t\tRoll:{} \n'.format(yaw,pitch,roll))
         # # Orientation covariance
         #position_msg.orientation_covariance = position_cov_matrix
     
