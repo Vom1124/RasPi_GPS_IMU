@@ -42,7 +42,7 @@ Clone this repository using
 
 ### Setting-Up:
 
-     Secondly, in order to read the IMU data in Euler angles (Yaw, Pitch, and Roll), the Quaernion data output from the VectorNav device needs to be converted from Quaternion to Euler angles. Since the VectorNav already uses the "scalar last" method to represent the Quaternion, simply using the euler_from_quaternion function from the package tf_transformation in python can ease the conversion process, as such this example adopts this method. There are couple of libraries to be installed before importing the tf_transformations package in python.
+  Secondly, in order to read the IMU data in Euler angles (Yaw, Pitch, and Roll), the Quaernion data output from the VectorNav device needs to be converted from Quaternion to Euler angles. Since the VectorNav already uses the "scalar last" method to represent the Quaternion, simply using the euler_from_quaternion function from the package tf_transformation in python can ease the conversion process, as such this example adopts this method. There are couple of libraries to be installed before importing the tf_transformations package in python.
 
      First, the transforms3d package is a pre-requisite to use tf_transformations library which needs to be installed as shown below.
 
