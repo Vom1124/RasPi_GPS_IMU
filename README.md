@@ -9,18 +9,20 @@ Clone this repository using
     git clone https://github.com/Vom1124/RasPi_GPS_IMU.git
 
 
-Prerequisites:
+### Prerequisites:
 
-  Packages to be installed:
+  #### Packages to be installed:
 
   1) GPS_RTK2: 
       The packages required to be installed additional to the python is pyserial for python serial port communication and pynmea2 for NMEA 0183 message structure, which are to be installed using the following.
 
+        a) For pyserial.
+
          pip3 install pyserial
-       for pyserial and
-     
-          pip3 install pynmea2
-       for NMEA 0183 message protocol.
+        b) For NMEA 0183 message protocol.
+
+         pip3 install pynmea2
+       
        
      The node uses usb communication using '/dev/ttyACM0'. But check this value by verifying using
 
@@ -31,14 +33,14 @@ Prerequisites:
      Edit the permission for the connected USB device if not done before or if a new OS is installed
 
            sudo chmod 0777 /dev/ttyACM0
-     This permission might be required multiple times depending on the USB port used.
+     This above permission might be required multiple times depending on the USB port used.
 
   3) VECTORNAV IMU:
-     This requires a python package called "vnpy" which needs to be installed from the vnprogib provided by the VECTORNAV manufacturer. Once the library is obtained; travese through the python folder under vnproglib directory and run
+     This requires a python package called "vnpy" which needs to be installed from the vnprogib provided by the VECTORNAV manufacturer. Once the library is obtained; travese through the python folder under vnproglib directory and run the below code to install the vnpy package.
 
            python3 setup.py install
 
-     to install the vnpy package.
+### Setting-Up:
 
      Secondly, in order to read the IMU data in Euler angles (Yaw, Pitch, and Roll), the Quaernion data output from the VectorNav device needs to be converted from Quaternion to Euler angles. Since the VectorNav already uses the "scalar last" method to represent the Quaternion, simply using the euler_from_quaternion function from the package tf_transformation in python can ease the conversion process, as such this example adopts this method. There are couple of libraries to be installed before importing the tf_transformations package in python.
 
@@ -56,7 +58,7 @@ Prerequisites:
      Again, edit the permission to the connected USB device to give the communication permission
 
          sudo chmod 0777 /dev/ttyUSB0
-     This permission might be required multiple times depending on the USB port used.
+     This above permission might be required multiple times depending on the USB port used.
 
 Once all the necessary packages are installed and verified, simply start the ros2 nodes as*
 
