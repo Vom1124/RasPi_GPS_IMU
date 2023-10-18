@@ -43,7 +43,7 @@ Clone this repository using
   
   a) First, the transforms3d package is a pre-requisite to use tf_transformations library which needs to be installed as shown below.
 
-             sudo pip3 install transforms3d
+             pip3 install transforms3d
 
   b) Now, the tf_transformations package itself needs to be installed, which can be done using the code below.
 
