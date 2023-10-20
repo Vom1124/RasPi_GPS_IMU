@@ -53,7 +53,7 @@ Clone this repository using
 
         Again, edit the permission to the connected USB device to give the communication permission
 
-            sudo chmod 0777 /dev/ttyUSB0
+         sudo chmod 0777 /dev/ttyUSB0
 
 This above permission might be required multiple times depending on the USB port used.
 
