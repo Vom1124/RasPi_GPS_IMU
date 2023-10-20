@@ -26,24 +26,24 @@ Clone this repository using
        
      The node uses usb communication using '/dev/ttyACM0'. But check this value by verifying using
 
-           ls /dev/tty*
+         ls /dev/tty*
      
      Usually, it's ttyACM* by default, but can take the value 0,1,2,... depending upon how it configures the USB connection.
 
      Edit the permission for the connected USB device if not done before or if a new OS is installed
 
-           sudo chmod 0777 /dev/ttyACM0
+         sudo chmod 0777 /dev/ttyACM0
      This above permission might be required multiple times depending on the USB port used.
 
   3) VECTORNAV IMU:
      This requires a python package called "vnpy" which needs to be installed from the vnprogib provided by the VECTORNAV manufacturer. Once the library is obtained; travese through the python folder under vnproglib directory and run the below code to install the vnpy package.
 
-          sudo python3 setup.py install
+         sudo python3 setup.py install
  Secondly, in order to read the IMU data in Euler angles (Yaw, Pitch, and Roll), the Quaernion data output from the VectorNav device needs to be converted from Quaternion to Euler angles. Since the VectorNav already uses the "scalar last" method to represent the Quaternion, simply using the euler_from_quaternion function from the package tf_transformation in python can ease the conversion process, as such this example adopts this method. There are couple of libraries to be installed before importing the tf_transformations package in python.
   
   a) First, the transforms3d package is a pre-requisite to use tf_transformations library which needs to be installed as shown below.
 
-             pip3 install transforms3d
+        pip3 install transforms3d
 
   b) Now, the tf_transformations package itself needs to be installed, which can be done using the code below.
 
