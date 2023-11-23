@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/ubuntu/RasPi_GPS_IMU/build/gps_rtk2
+prepend-non-duplicate;PYTHONPATH;/home/vom/ros2_ws/RasPi_GPS_IMU/build/gps_rtk2

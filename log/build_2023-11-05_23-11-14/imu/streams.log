@@ -1,0 +1,25 @@
+[1.016s] Invoking command in '/home/vom/ros2_ws/RasPi_GPS_IMU/build/imu': PYTHONPATH=/home/vom/ros2_ws/RasPi_GPS_IMU/build/imu/prefix_override:/home/vom/ros2_ws/RasPi_GPS_IMU/install/imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/RasPi_GPS_IMU/build/imu/build --no-deps install_data
+[1.263s] running develop
+[1.414s] running egg_info
+[1.414s] creating imu.egg-info
+[1.414s] writing imu.egg-info/PKG-INFO
+[1.415s] writing dependency_links to imu.egg-info/dependency_links.txt
+[1.415s] writing entry points to imu.egg-info/entry_points.txt
+[1.415s] writing requirements to imu.egg-info/requires.txt
+[1.415s] writing top-level names to imu.egg-info/top_level.txt
+[1.415s] writing manifest file 'imu.egg-info/SOURCES.txt'
+[1.417s] reading manifest file 'imu.egg-info/SOURCES.txt'
+[1.417s] writing manifest file 'imu.egg-info/SOURCES.txt'
+[1.418s] running build_ext
+[1.419s] Creating /home/vom/ros2_ws/RasPi_GPS_IMU/install/imu/lib/python3.10/site-packages/imu.egg-link (link to .)
+[1.419s] Installing imu_read script to /home/vom/ros2_ws/RasPi_GPS_IMU/install/imu/lib/imu
+[1.419s] Installing imu_test script to /home/vom/ros2_ws/RasPi_GPS_IMU/install/imu/lib/imu
+[1.419s] 
+[1.419s] Installed /home/vom/ros2_ws/RasPi_GPS_IMU/build/imu
+[1.419s] running install_data
+[1.420s] creating /home/vom/ros2_ws/RasPi_GPS_IMU/install/imu/share/ament_index
+[1.420s] creating /home/vom/ros2_ws/RasPi_GPS_IMU/install/imu/share/ament_index/resource_index
+[1.420s] creating /home/vom/ros2_ws/RasPi_GPS_IMU/install/imu/share/ament_index/resource_index/packages
+[1.420s] copying resource/imu -> /home/vom/ros2_ws/RasPi_GPS_IMU/install/imu/share/ament_index/resource_index/packages
+[1.420s] copying package.xml -> /home/vom/ros2_ws/RasPi_GPS_IMU/install/imu/share/imu
+[1.443s] Invoked command in '/home/vom/ros2_ws/RasPi_GPS_IMU/build/imu' returned '0': PYTHONPATH=/home/vom/ros2_ws/RasPi_GPS_IMU/build/imu/prefix_override:/home/vom/ros2_ws/RasPi_GPS_IMU/install/imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/RasPi_GPS_IMU/build/imu/build --no-deps install_data

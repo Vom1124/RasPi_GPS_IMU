@@ -1,0 +1,24 @@
+[1.074s] Invoking command in '/home/vom/ros2_ws/RasPi_GPS_IMU/build/gps_rtk2': PYTHONPATH=/home/vom/ros2_ws/RasPi_GPS_IMU/build/gps_rtk2/prefix_override:/home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/RasPi_GPS_IMU/build/gps_rtk2/build --no-deps install_data
+[1.330s] running develop
+[1.486s] running egg_info
+[1.486s] creating gps_rtk2.egg-info
+[1.487s] writing gps_rtk2.egg-info/PKG-INFO
+[1.487s] writing dependency_links to gps_rtk2.egg-info/dependency_links.txt
+[1.487s] writing entry points to gps_rtk2.egg-info/entry_points.txt
+[1.487s] writing requirements to gps_rtk2.egg-info/requires.txt
+[1.487s] writing top-level names to gps_rtk2.egg-info/top_level.txt
+[1.487s] writing manifest file 'gps_rtk2.egg-info/SOURCES.txt'
+[1.488s] reading manifest file 'gps_rtk2.egg-info/SOURCES.txt'
+[1.489s] writing manifest file 'gps_rtk2.egg-info/SOURCES.txt'
+[1.490s] running build_ext
+[1.490s] Creating /home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.10/site-packages/gps-rtk2.egg-link (link to .)
+[1.491s] Installing gps_read script to /home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2/lib/gps_rtk2
+[1.491s] 
+[1.491s] Installed /home/vom/ros2_ws/RasPi_GPS_IMU/build/gps_rtk2
+[1.491s] running install_data
+[1.491s] creating /home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2/share/ament_index
+[1.491s] creating /home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2/share/ament_index/resource_index
+[1.491s] creating /home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2/share/ament_index/resource_index/packages
+[1.491s] copying resource/gps_rtk2 -> /home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2/share/ament_index/resource_index/packages
+[1.493s] copying package.xml -> /home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2/share/gps_rtk2
+[1.563s] Invoked command in '/home/vom/ros2_ws/RasPi_GPS_IMU/build/gps_rtk2' returned '0': PYTHONPATH=/home/vom/ros2_ws/RasPi_GPS_IMU/build/gps_rtk2/prefix_override:/home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/RasPi_GPS_IMU/build/gps_rtk2/build --no-deps install_data

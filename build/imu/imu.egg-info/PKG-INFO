@@ -1,4 +1,4 @@
-Metadata-Version: 1.2
+Metadata-Version: 2.1
 Name: imu
 Version: 0.0.0
 Summary: IMU Data
@@ -6,5 +6,7 @@ Home-page: UNKNOWN
 Maintainer: ubuntu
 Maintainer-email: vomsheendhur.raju@ndus.edu
 License: Apache License 2.0
-Description: UNKNOWN
 Platform: UNKNOWN
+
+UNKNOWN
+

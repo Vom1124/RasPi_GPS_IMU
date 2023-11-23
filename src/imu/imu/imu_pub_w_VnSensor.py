@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import sys
-
+import os
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Imu, MagneticField
@@ -19,6 +19,7 @@ magnetic_cov_matrix = [0.]*9
 # print(cov_matrix)
 
 def setup_sensor(device = "/dev/ttyUSB0", baudrate = 115200):
+    os.system("echo 1124 | sudo -S chmod 0777 /dev/ttyUSB0")
     sensor = VnSensor()
     sensor.connect(device, baudrate)
     return sensor
@@ -131,4 +132,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     try:main()
-    except KeyboardInterrupt: print("test")
+    except KeyboardInterrupt: print("main routine failure")

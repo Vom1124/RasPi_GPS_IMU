@@ -1,5 +1,0 @@
-[01m[Kvnpy/libvncxx_wrap.cpp:[m[K In function ‘[01m[KPyObject* _wrap_delete_VnSensor(PyObject*, PyObject*)[m[K’:
-[01m[Kvnpy/libvncxx_wrap.cpp:52903:10:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[Kvn::sensors::VnSensor[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
-52903 |   delete [01;35m[Karg1[m[K;
-      |          [01;35m[K^~~~[m[K
-interrupted

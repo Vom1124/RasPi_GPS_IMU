@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+import os
 import rclpy
 from rclpy.node import Node
 
@@ -13,15 +13,20 @@ from datetime import datetime
 from datetime import timezone
 import pytz
 
+def setup_device(device='/dev/ttyACM0', baudrate=4800, timeout=1):
+
+    os.system("echo 1124 | sudo -S chmod 0777 /dev/ttyACM0")
+    serial = Serial(device, baudrate, timeout=timeout)    
+    serial_data = TextIOWrapper(BufferedRWPair(serial, serial))
+    return serial_data
+
 class GPS(Node):
 
-    def __init__(self, device='/dev/ttyACM0', baudrate=4800, timeout=1, timer=0.1):
+
+    def __init__(self, serial_connection=setup_device(), timer=0.1):
         super().__init__("gps_publisher")
 
-        self.device = device 
-        #self.serial = Serial('/dev/ttyACM0')
-        self.serial = Serial(self.device, baudrate, timeout=timeout)
-        self.sw = TextIOWrapper(BufferedRWPair(self.serial, self.serial))
+        self.sw = serial_connection
 
         self.publisher = self.create_publisher(NavSatFix, 'NavSatFix', 10)
 
@@ -34,8 +39,8 @@ class GPS(Node):
                 msg = nmea.parse(data)
                 default_time = msg.timestamp.replace(tzinfo=pytz.UTC)
                 #local_time  
-                print(default_time)
-                #print(msg)
+                # print(default_time)
+                # print(msg)
                 print(repr(msg))
                 print("Altitude{}".format(msg.altitude))
                 print("Latitude:{}".format(msg.lat))
@@ -43,11 +48,11 @@ class GPS(Node):
                 
                 # GPS Msg
                 gps_msg = NavSatFix()
-                #gps_msg.altitude = float(msg.altitude)
-                #gps_msg.latitude = float(msg.latitude)
-                #gps_msg.longitude = float(msg.longitude)
+                gps_msg.altitude = float(msg.altitude)
+                gps_msg.latitude = float(msg.latitude)
+                gps_msg.longitude = float(msg.longitude)
                 
-                #self.publisher.publish(gps_msg)
+                self.publisher.publish(gps_msg)
 
         except Exception: pass
 
