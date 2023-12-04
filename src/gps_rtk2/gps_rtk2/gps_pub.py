@@ -15,7 +15,7 @@ import pytz
 
 def setup_device(device='/dev/ttyACM0', baudrate=4800, timeout=1):
 
-    os.system("echo 1124 | sudo -S chmod 0777 /dev/ttyACM0")
+    os.system("echo 123 | sudo -S chmod 0777 /dev/ttyACM0")
     serial = Serial(device, baudrate, timeout=timeout)    
     serial_data = TextIOWrapper(BufferedRWPair(serial, serial))
     return serial_data
